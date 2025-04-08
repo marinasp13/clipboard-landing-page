@@ -1,0 +1,245 @@
+:root{
+    --font-principal: "Bai Jamjuree", serif;
+    --dark-grayish-blue:hsl(210, 10%, 33%);
+    --grayish-blue:hsl(201, 11%, 66%);
+    --green: hsl(171, 66%, 44%);
+    --border-green: hsl(171, 72%, 35%);
+    --blue:hsl(233, 100%, 69%);
+    --border-blue:hsl(233, 98%, 64%);
+    --white: #ffffff;
+    --bg-footer:hsl(210, 6%, 94%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: var(--font-principal);
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    margin: 150px 0;
+}
+
+#header_logo{
+    width:8rem;
+    height: 8rem;
+}
+
+.title_container{
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:1.5rem;
+}
+
+#header_titulo{
+    font-size: 2.5rem;
+    color: var(--dark-grayish-blue);
+}
+
+#header_descricao{
+    font-size: 1.125rem;
+    color: var(--grayish-blue);
+}
+
+.container_botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.item_btn{
+    padding: 1.25rem 3.125rem;
+    border-radius: 45px;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.iosBtn{
+    background-color: var(--green);
+    box-shadow: 0 4px var(--border-green);
+}
+
+.macBtb{
+    background-color: var(--blue);
+    box-shadow: 0 4px var(--border-blue);
+}
+
+#secao_snippets, #secao_access, #secao_supercharge{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 9.375rem;
+}
+
+.secao_titulo{
+    font-size: 1.875rem;
+    color: var(--dark-grayish-blue);
+}
+
+.secao_descricao{
+    font-size: 1rem;
+    color: var(--grayish-blue); 
+}
+
+.secao_snippets_conteudo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+#secao_snippets_img{
+    width: 47rem;
+    height: 35.75rem;
+}
+
+#secao_snippets_lista{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3.75rem;
+    width: 20%;
+    margin-right: 18.75rem;
+}
+
+.lista_item_titulo{
+    font-size: 1.602rem;
+    color: var(--dark-grayish-blue);
+    margin-bottom: 1rem;
+}
+
+.lista_item_descricao{
+    font-size:1rem;
+    color: var(--grayish-blue); 
+}
+
+#secao_access_img{
+   width: 56.563rem;
+   height: 35.938rem; 
+}
+
+#secao_supercharge_lista{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.secao_supercharge_lista_item{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.secao_supercharge_lista_item_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.secao_supercharge_lista_item_titulo{
+    color: var(--dark-grayish-blue);
+    font-size: 1.602rem;
+}
+
+.secao_supercharge_lista_item_descricao{
+    color: var(--grayish-blue);
+    text-align: center;
+    font-size:1rem;
+}
+
+#secao_logomarcas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.25rem;
+}
+
+#downloads{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    margin: 9.375rem 0;
+}
+
+#footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9.375rem;
+    background-color: var(--bg-footer);
+    padding: 2.5rem 0;
+}
+
+#logo-footer{
+    width:5rem;
+    height: 5rem;
+}
+
+.footer_lista_opcoes{
+    width: 30%;
+    max-height: 4.375rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-right: 15.625rem;
+
+    
+}
+
+.footer_lista_opcoes_item a{
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+}
+
+.footer_lista_redes_sociais{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+}

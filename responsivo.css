@@ -1,0 +1,99 @@
+@media (max-width: 768px){
+    body{
+        box-sizing: border-box;
+        
+    }
+
+    .title_container{
+        width: 90%;
+    }
+    
+    #header_titulo{
+        width: 90%;
+    }
+
+    #header_descricao{
+        width: 70%;
+        
+    }
+
+    main, header{
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    .container_botoes{
+        flex-direction: column;
+        gap: 2.188rem;
+        width: 100%;
+    }
+
+    .item_btn{
+        width: 100%;
+    }
+
+    .secao_snippets_conteudo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    #secao_snippets_img{
+        width: 90%;
+        height: auto;
+    }
+
+    #secao_snippets_lista{
+        margin-right: 0;
+        width: 80%;
+    }
+
+    .lista_item_titulo{
+        text-align: center;
+    }
+
+    .lista_item_descricao{
+        text-align: center;
+    }
+
+    #secao_access_img{
+        width: 100%;
+        height: auto; 
+     }
+
+    #secao_supercharge_lista{
+        flex-direction: column;
+        width: 90%;
+        gap:3.75rem;
+    }
+
+    .secao_supercharge_lista_item{
+        width: 90%;
+    }
+
+    #secao_logomarcas{
+        flex-direction: column;
+    }
+
+    #footer{
+        flex-direction: column;
+    }
+
+    .footer_lista_opcoes{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        
+        font-size: 1.125rem;
+        font-weight: 500;
+        margin-right: 0;
+    
+        
+    }
+}
+
