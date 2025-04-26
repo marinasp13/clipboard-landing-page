@@ -19,8 +19,8 @@ This is a solution to the [Clipboard Landing Page challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/marinasp13/clipboard-landing-page](https://github.com/marinasp13/clipboard-landing-page)
+- Live Site URL: [https://marinasp13.github.io/clipboard-landing-page/](https://marinasp13.github.io/clipboard-landing-page/)
 
 ## My process
 
