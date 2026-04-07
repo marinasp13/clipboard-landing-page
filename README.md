@@ -1,6 +1,6 @@
 # 🚀 Frontend Mentor - Clipboard Landing Page solution
 
-Projeto de landing page desenvolvido para treinamento de habiliades de estruturação e posicionamento de elementos, seguindo a semântica e a garantindo a responsividade da página.
+Projeto de landing page desenvolvido para treinamento de habilidades de estruturação e posicionamento de elementos, seguindo a semântica e garantindo a responsividade da página.
 
 ---
 
@@ -19,7 +19,7 @@ Projeto de landing page desenvolvido para treinamento de habiliades de estrutura
 
 ## 💻 Sobre o Projeto
 
-Este projeto foi desenvolvido com o objetivo de criar uma landin page que proporcione umas boa experiência ao usuário. Através dele, busquei aplicar conceitos de estruturação do elementos com HTML, estilização e posicionamentos dos elemento com CSS, layout responsivo com media queries para criar uma solução eficiente e intuitiva.
+Este projeto foi desenvolvido com o objetivo de criar uma landing page que proporcione uma boa experiência ao usuário. Através dele, busquei aplicar conceitos de estruturação dos elementos com HTML, estilização e posicionamento dos elementos com CSS e layout responsivo com media queries para criar uma solução eficiente e intuitiva.
 <!-- 
 ### ✨ Principais Funcionalidades:
 - **[Funcionalidade 1]:** Descrição breve do que faz.
