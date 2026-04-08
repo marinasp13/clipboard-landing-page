@@ -44,8 +44,7 @@ Caso queira rodar este projeto localmente na sua máquina, siga os passos abaixo
 
 ```bash
 # 1. Clone este repositório
-$ git clone [https://github.com/marinasp13/clipboard-landing-page](https://github.com/marinasp13/clipboard-landing-page)
-
+$ git clone https://github.com/marinasp13/clipboard-landing-page.git
 # 2. Acesse a pasta do projeto
 $ cd clipboard-landing-page
 
@@ -80,8 +79,8 @@ Um agradecimento especial a todas as pessoas que contribuíram para este projeto
 Deixe sua contribuição nesse projeto.
 1. Clone o repositório.
 2. Faça o checkout para sua branch usando a sintaxe: 
-    -Feature (Adicionar nova funcionalidade)
-    -Bugfix (Correção de bug)
-    -Improvement (Melhoria)
+    - Feature (Adicionar nova funcionalidade)
+    - Bugfix (Correção de bug)
+    - Improvement (Melhoria)
 3. Siga os padrões de commit.
 4. Abra um Pull Request explicando seu trabalho realizado e aguarde a revisão! 🤝
